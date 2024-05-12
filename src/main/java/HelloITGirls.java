@@ -6,7 +6,8 @@ public class HelloITGirls {
 
        String str = "Training Java";
         System.out.println(str.length());
-        System.out.println(str.substring(6,7));
+
+        System.out.println(str.charAt(6));
         String date = String.valueOf(new Date());
         String newStr = str + date;
         System.out.println(newStr);
